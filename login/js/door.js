@@ -1,4 +1,3 @@
-n=0;
 var str="";
 $(function () {
 	//密码提示
@@ -19,16 +18,14 @@ $(function () {
 			  }else if(index == 12){
 				index="";
 				str="";
-				n=0;
 				$(".srmima span").empty()
                                 return
 			  }
 			  $(element).addClass("off").siblings().removeClass("off")
                           str += index;
-			  n++
 			  $(".srmima span").append(index)
 			  
-              if(n==6){
+              if(str.length==6){
                    if(str === "170808"){
                     $(".srmima,.mimasuo").fadeOut();
 					$(".menkai span").addClass("bashou");
