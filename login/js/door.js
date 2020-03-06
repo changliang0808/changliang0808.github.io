@@ -21,9 +21,10 @@ $(function () {
 				str="";
 				n=0;
 				$(".srmima span").empty()
+                                return
 			  }
 			  $(element).addClass("off").siblings().removeClass("off")
-              str += index;
+                          str += index;
 			  n++
 			  $(".srmima span").append(index)
 			  
