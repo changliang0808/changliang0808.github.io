@@ -59,10 +59,9 @@ chart.data = [{
     "task": "官宣领证",
     "disabled1":false,
     "disabled2":false,
-    "disabled3":false,
+   
     "image1":"img/26.jpg",
-    "image2":"img/33.png",
-    "image3":"img/34.png"
+    "image2":"img/33.png"
 },  {
     "category": "爱的结晶",
     "start": "2016-12-28",
@@ -70,7 +69,9 @@ chart.data = [{
     "color": colorSet.getIndex(6),
     "task": "爱的延续，生命的意义……"   , 
     "disabled2":false,
+    "disabled1":false,
     "image2":"img/1.jpg",
+    "image1":"img/34.png"
 
     "image1":"img/1.jpg"
 }, {
