@@ -61,8 +61,8 @@ chart.data = [{
     "disabled2":false,
     "disabled3":false,
     "image1":"img/26.jpg",
-    "image2":"img/33.jpg",
-    "image3":"img/34.jpg"
+    "image2":"img/33.png",
+    "image3":"img/34.png"
 },  {
     "category": "爱的结晶",
     "start": "2016-12-28",
