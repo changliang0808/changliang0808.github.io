@@ -76,7 +76,6 @@ chart.data = [{
 }, {
     "category": "未来可期",
     "start": "2020-02-09",
-    "end": "2222-02-02",
     "color": colorSet.getIndex(9),
     "task": "执子之手、与子偕老……",
     "disabled2":false,
