@@ -58,7 +58,9 @@ chart.data = [{
     "color": colorSet.getIndex(5),
     "task": "官宣领证",
     "disabled1":false,
-    "image1":"img/26.jpg"
+    "image1":"img/26.jpg",
+    "image2":"img/33.jpg",
+    "image3":"img/34.jpg"
 },  {
     "category": "爱的结晶",
     "start": "2016-12-28",
@@ -66,7 +68,9 @@ chart.data = [{
     "color": colorSet.getIndex(6),
     "task": "爱的延续，生命的意义……"   , 
     "disabled2":false,
-    "image2":"img/1.jpg"
+    "image2":"img/1.jpg",
+
+    "image1":"img/1.jpg"
 }, {
     "category": "我爱我家",
     "start": "2018-12-01",
