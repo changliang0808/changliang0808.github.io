@@ -25,29 +25,23 @@ var colorSet = new am4core.ColorSet();
 colorSet.saturation = 0.5;
 
 chart.data = [{
-    "category": "Module #1",
-    "start": "2019-01-10",
-    "end": "2020-03-17",
+    "category": "初识校园",
+    "start": "2006-09-01",
+    "end": "2010-06-25",
     "color": colorSet.getIndex(0),
-    "task": "Gathering requirements"
+    "task": "初识校园————爱的开始"
+},{
+    "category": "毕业分离",
+    "start": "2010-07-01",
+    "end": "2012-03-15",
+    "color": colorSet.getIndex(2),
+    "task": "毕业分离————迷茫"
 }, {
-    "category": "Module #1",
-    "start": "2019-02-05",
-    "end": "2019-04-18",
-    "color": colorSet.getIndex(0),
-    "task": "Development"
-}, {
-    "category": "Module #2",
-    "start": "2019-01-08",
-    "end": "2019-01-10",
+    "category": "一个人",
+    "start": "2012-09-18",
+    "end": "2012-11-03",
     "color": colorSet.getIndex(5),
-    "task": "Gathering requirements"
-}, {
-    "category": "Module #2",
-    "start": "2019-01-12",
-    "end": "2019-01-15",
-    "color": colorSet.getIndex(5),
-    "task": "Producing specifications"
+    "task": "生离死别"
 }, {
     "category": "Module #2",
     "start": "2019-01-16",
@@ -192,13 +186,35 @@ var eventSeries = chart.series.push(new am4plugins_timeline.CurveLineSeries());
 eventSeries.dataFields.dateX = "eventDate";
 eventSeries.dataFields.categoryY = "category";
 eventSeries.data = [
-    { category: "", eventDate: "2019-01-15", letter: "A", description: "Something happened here" },
-    { category: "", eventDate: "2019-01-23", letter: "B", description: "Something happened here" },
-    { category: "", eventDate: "2019-02-10", letter: "C", description: "Something happened here" },
-    { category: "", eventDate: "2019-02-29", letter: "D", description: "Something happened here" },
-    { category: "", eventDate: "2019-03-06", letter: "E", description: "Something happened here" },
-    { category: "", eventDate: "2019-03-12", letter: "F", description: "Something happened here" },
-    { category: "", eventDate: "2019-03-22", letter: "G", description: "Something happened here" }];
+    { category: "初识校园", eventDate: "2006-09-01", letter: "注定", description: "兰州理工大学" },
+
+    { category: "初识校园", eventDate: "2007-01-01", letter: "初见", description: "第一次见面（两个傻瓜）" },
+
+    { category: "初识校园", eventDate: "2009-06-04", letter: "过夜", description: "一起去兴隆山（喝的烂醉）" },
+
+    { category: "初识校园", eventDate: "2010-06-25", letter: "毕业", description: "毕业分离（前途未知）" },
+
+    
+    { category: "一个人", eventDate: "2012-09-18", letter: "复合", description: "短信告知，复合复合复合" },
+
+    { category: "一个人", eventDate: "2012-11-03", letter: "伤离别", description: "失去了至亲之人" },
+    
+    { category: "", eventDate: "2013-03-15", letter: "新篇章", description: "来北京，开启新生活" },
+
+    
+    { category: "", eventDate: "2014-10-01", letter: "", description: "第一次去我家" },
+    { category: "", eventDate: "2013-03-15", letter: "重逢", description: "来北京，开启新生活" },
+
+
+
+    { category: "", eventDate: "2016-06-08", letter: "领证", description: "我们领证了" },
+    { category: "", eventDate: "2016-09-23", letter: "happy", description: "一起飞三亚" },
+    
+    { category: "", eventDate: "2016-12-28", letter: "小祖宗", description: "13:33 分 B超确认新生命的到来" },
+    { category: "", eventDate: "2017-08-08", letter: "宝贝", description: "16:59 宝贝来到这个世界第一声啼哭" },
+    { category: "", eventDate: "2018-12-10", letter: "爱巢", description: "我们有了自己得小窝" },
+    { category: "", eventDate: "2019-10-23", letter: "生离", description: "她一个人回产春，带着我的心" }
+];
 eventSeries.strokeOpacity = 0;
 
 var flagBullet = eventSeries.bullets.push(new am4plugins_bullets.FlagBullet())
