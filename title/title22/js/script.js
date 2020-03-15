@@ -196,7 +196,7 @@ eventSeries.data = [
     { category: "我爱我家", eventDate: "2019-10-23", letter: "生离", description: "她一个人回产春，带着我的心" },
     { category: "我爱我家", eventDate: "2020-01-17", letter: "重逢", description: "家、爱人、一日三餐、朝起幕作" },
 
-    { category: "未来可期", eventDate: "2119-12-31", letter: "分离", description: "唯有死亡才能将我们分离………" }
+    { category: "未来可期", eventDate: "2020-03-17", letter: "未来", description: "唯有死亡才能将我们分离………" }
 
 
 ];
