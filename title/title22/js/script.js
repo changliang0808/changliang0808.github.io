@@ -58,6 +58,8 @@ chart.data = [{
     "color": colorSet.getIndex(5),
     "task": "官宣领证",
     "disabled1":false,
+    "disabled2":false,
+    "disabled3":false,
     "image1":"img/26.jpg",
     "image2":"img/33.jpg",
     "image3":"img/34.jpg"
