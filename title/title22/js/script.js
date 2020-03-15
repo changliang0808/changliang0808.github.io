@@ -59,7 +59,6 @@ chart.data = [{
     "task": "官宣领证",
     "disabled1":false,
     "disabled2":false,
-   
     "image1":"img/26.jpg",
     "image2":"img/33.png"
 },  {
@@ -72,8 +71,6 @@ chart.data = [{
     "disabled1":false,
     "image2":"img/1.jpg",
     "image1":"img/34.png"
-
-    "image1":"img/1.jpg"
 }, {
     "category": "我爱我家",
     "start": "2018-12-01",
