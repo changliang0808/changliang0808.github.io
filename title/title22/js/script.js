@@ -29,7 +29,10 @@ chart.data = [{
     "start": "2006-09-01",
     "end": "2010-06-25",
     "color": colorSet.getIndex(0),
-    "task": "初识校园————爱的开始"
+    "task": "初识校园————爱的开始",
+    "disabled2":false,
+    "image2":"img/20.jpg",
+    "location":0
 },{
     "category": "毕业分离",
     "start": "2010-07-01",
@@ -37,72 +40,47 @@ chart.data = [{
     "color": colorSet.getIndex(2),
     "task": "毕业分离————迷茫"
 }, {
-    "category": "一个人",
+    "category": "孤独一人",
     "start": "2012-09-18",
     "end": "2012-11-03",
+    "color": colorSet.getIndex(3),
+    "task": "独自生活，独自面对亲人的生死离别"
+}, {
+    "category": "北京新篇",
+    "start": "2013-03-15",
+    "end": "2014-10-01",
+    "color": colorSet.getIndex(4),
+    "task": "开启新的生活，因为有你，因我我在"
+}, {
+    "category": "正式官宣",
+    "start": "2016-06-08",
+    "end": "2017-01-01",
     "color": colorSet.getIndex(5),
-    "task": "生离死别"
-}, {
-    "category": "Module #2",
-    "start": "2019-01-16",
-    "end": "2019-02-05",
-    "color": colorSet.getIndex(5),
-    "task": "Development"
-}, {
-    "category": "Module #2",
-    "start": "2019-02-10",
-    "end": "2019-02-18",
-    "color": colorSet.getIndex(5),
-    "task": "Testing and QA"
-}, {
-    "category": ""
-}, {
-    "category": "Module #3",
-    "start": "2019-01-01",
-    "end": "2019-01-19",
-    "color": colorSet.getIndex(9),
-    "task": "Gathering requirements"    
-}, {
-    "category": "Module #3",
-    "start": "2019-02-01",
-    "end": "2019-02-10",
-    "color": colorSet.getIndex(9),
-    "task": "Producing specifications"
-}, {
-    "category": "Module #3",
-    "start": "2019-03-10",
-    "end": "2019-04-15",
-    "color": colorSet.getIndex(9),
-    "task": "Development"
-}, {
-    "category": "Module #3",
-    "start": "2019-04-20",
-    "end": "2019-04-30",
-    "color": colorSet.getIndex(9),
-    "task": "Testing and QA",
-    "disabled2":false,
-    "image2":"img/t1.png",
-    "location":0
-}, {
-    "category": "Module #4",
-    "start": "2019-01-15",
-    "end": "2019-02-12",
-    "color": colorSet.getIndex(15),
-    "task": "Gathering requirements",
+    "task": "官宣领证",
     "disabled1":false,
-    "image1":"img/t2.png"
+    "image1":"img/26.jpg"
+},  {
+    "category": "爱的结晶",
+    "start": "2016-12-28",
+    "end": "2017-08-08",
+    "color": colorSet.getIndex(6),
+    "task": "爱的延续，生命的意义……"   , 
+    "disabled2":false,
+    "image2":"img/1.jpg"
 }, {
-    "category": "Module #4",
-    "start": "2019-02-25",
-    "end": "2019-03-10",
-    "color": colorSet.getIndex(15),
-    "task": "Development"
+    "category": "我爱我家",
+    "start": "2018-12-01",
+    "end": "2020-01-17",
+    "color": colorSet.getIndex(7),
+    "task": "共同努力、共筑建爱的港湾"
 }, {
-    "category": "Module #4",
-    "start": "2019-03-23",
-    "end": "2019-04-29",
-    "color": colorSet.getIndex(15),
-    "task": "Testing and QA"
+    "category": "未来可期",
+    "start": "2020-02-09",
+    "end": "2222-02-02",
+    "color": colorSet.getIndex(9),
+    "task": "执子之手、与子偕老……",
+    "disabled2":false,
+    "image2":"img/24.jpg",
 }];
 
 chart.dateFormatter.dateFormat = "yyyy-MM-dd";
@@ -195,25 +173,32 @@ eventSeries.data = [
     { category: "初识校园", eventDate: "2010-06-25", letter: "毕业", description: "毕业分离（前途未知）" },
 
     
-    { category: "一个人", eventDate: "2012-09-18", letter: "复合", description: "短信告知，复合复合复合" },
+    { category: "毕业分离", eventDate: "2012-09-18", letter: "复合", description: "短信告知，复合复合复合" },
 
-    { category: "一个人", eventDate: "2012-11-03", letter: "伤离别", description: "失去了至亲之人" },
+    { category: "孤独一人", eventDate: "2012-11-03", letter: "伤离别", description: "失去了至亲之人" },
     
-    { category: "", eventDate: "2013-03-15", letter: "新篇章", description: "来北京，开启新生活" },
+    { category: "北京新篇", eventDate: "2013-03-15", letter: "新篇章", description: "来北京，开启新生活" },
 
+    { category: "北京新篇", eventDate: "2014-03-15", letter: "群居", description: "他、她、他们的到来" },
+
+    { category: "北京新篇", eventDate: "2014-10-01", letter: "见家长", description: "第一次去我家" },
+
+
+
+    { category: "正式官宣", eventDate: "2016-06-08", letter: "领证", description: "我们领证了" },
+    { category: "蜜月旅行", eventDate: "2016-09-23", letter: "happy", description: "一起飞三亚" },
     
-    { category: "", eventDate: "2014-10-01", letter: "", description: "第一次去我家" },
-    { category: "", eventDate: "2013-03-15", letter: "重逢", description: "来北京，开启新生活" },
-
-
-
-    { category: "", eventDate: "2016-06-08", letter: "领证", description: "我们领证了" },
-    { category: "", eventDate: "2016-09-23", letter: "happy", description: "一起飞三亚" },
+    { category: "爱的结晶", eventDate: "2016-12-28", letter: "小祖宗", description: "13:33 分 B超确认新生命的到来" },
+    { category: "爱的结晶", eventDate: "2017-08-08", letter: "宝贝", description: "16:59 宝贝来到这个世界第一声啼哭" },
     
-    { category: "", eventDate: "2016-12-28", letter: "小祖宗", description: "13:33 分 B超确认新生命的到来" },
-    { category: "", eventDate: "2017-08-08", letter: "宝贝", description: "16:59 宝贝来到这个世界第一声啼哭" },
-    { category: "", eventDate: "2018-12-10", letter: "爱巢", description: "我们有了自己得小窝" },
-    { category: "", eventDate: "2019-10-23", letter: "生离", description: "她一个人回产春，带着我的心" }
+    { category: "我爱我家", eventDate: "2018-12-10", letter: "爱巢", description: "我们有了自己得小窝" },
+
+    { category: "我爱我家", eventDate: "2019-10-23", letter: "生离", description: "她一个人回产春，带着我的心" },
+    { category: "我爱我家", eventDate: "2020-01-17", letter: "重逢", description: "家、爱人、一日三餐、朝起幕作" },
+
+    { category: "未来可期", eventDate: "2119-12-31", letter: "分离", description: "唯有死亡才能将我们分离………" }
+
+
 ];
 eventSeries.strokeOpacity = 0;
 
