@@ -32,7 +32,7 @@ $(function () {
 					setTimeout(function(){
 						$(".menkai").addClass("kaimen").siblings(".kaimen_guang").addClass("guang");
 						setTimeout(function(){
-							$(window).attr('location','https://changliang0931.github.io/main/index.html');
+							$(window).attr('location','https://changliang0808.github.io/main/index.html');
 						},1950)
 					},500)
                     //
